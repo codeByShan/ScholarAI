@@ -1,0 +1,11 @@
+streamlit                # builds the web app UI
+langchain                # core RAG pipeline framework
+langchain-community      # extra LangChain tools and integrations
+langchain-text-splitters # splits PDF text into chunks
+langchain-google-genai   # connects LangChain with Google Gemini
+langchain-huggingface    # connects LangChain with HuggingFace
+google-genai             # official Google Gemini API library
+faiss-cpu                # vector database for storing embeddings
+pypdf2                   # extracts text from PDF files
+sentence-transformers    # converts text chunks into embeddings
+python-dotenv            # reads API key safely from .env file

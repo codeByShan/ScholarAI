@@ -1,0 +1,13 @@
+# Don't upload virtual environment
+venv/
+
+# Don't upload API key
+.env
+
+# Don't upload Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Don't upload HuggingFace cache
+.cache/
