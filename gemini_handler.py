@@ -23,14 +23,26 @@ import os
 # So we can safely access our API key
 from dotenv import load_dotenv
 
-# This line actually loads the .env file
-# After this line GEMINI_API_KEY is available in our environment
+# # This line actually loads the .env file
+# # After this line GEMINI_API_KEY is available in our environment
+# load_dotenv()
+
+
+# # os.getenv() reads the value of GEMINI_API_KEY from environment
+# # This is how we safely get our API key without writing it in code
+# api_key = os.getenv("GEMINI_API_KEY")
+
+import streamlit as st
+
 load_dotenv()
 
+# Try Streamlit secrets first (for deployment)
+# Then fall back to .env file (for local development)
+try:
+    api_key = st.secrets["GEMINI_API_KEY"]
+except:
+    api_key = os.getenv("GEMINI_API_KEY")
 
-# os.getenv() reads the value of GEMINI_API_KEY from environment
-# This is how we safely get our API key without writing it in code
-api_key = os.getenv("GEMINI_API_KEY")
 
 # genai.configure() sets up our connection to Gemini
 # We pass our API key so Google knows who we are
