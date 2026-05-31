@@ -140,6 +140,8 @@ To deploy your own version:
 ### Home Screen
 Upload any research paper PDF to get started.
 
+![Uploading image.png…]()
+
 ### Paper Summary
 Get a comprehensive summary covering all key aspects of the paper.
 
