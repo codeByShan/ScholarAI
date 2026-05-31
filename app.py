@@ -12,11 +12,11 @@ st.set_page_config(
 )
 
 # Add this right here ↓
-st.markdown("""
-    <style>
-    .stSpinner { margin-top: -50px; }
-    </style>
-""", unsafe_allow_html=True)
+# st.markdown("""
+#     <style>
+#     .stSpinner { margin-top: -50px; }
+#     </style>
+# """, unsafe_allow_html=True)
 
 
 
