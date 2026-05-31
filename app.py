@@ -3,11 +3,22 @@ from pdf_processor import extract_text_from_pdf
 from rag_pipeline import split_text_into_chunks, create_vector_database, get_relevant_chunks
 from gemini_handler import generate_summary, extract_key_insights, generate_citation, answer_question
 
+
+
 st.set_page_config(
     page_title="ScholarAI",
     page_icon="🔬",
     layout="wide"
 )
+
+# Add this right here ↓
+st.markdown("""
+    <style>
+    .stSpinner { margin-top: -50px; }
+    </style>
+""", unsafe_allow_html=True)
+
+
 
 # Initialize session state variables at the very top
 # This ensures they always exist before anything else runs
