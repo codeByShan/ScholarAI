@@ -2,8 +2,6 @@
 
 > An AI powered web application that helps students and researchers understand research papers instantly using Google Gemini LLM and RAG architecture.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://scholar-research-ai.streamlit.app)
-
 ---
 
 ## 🚀 Live Demo
