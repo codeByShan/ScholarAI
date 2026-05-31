@@ -55,7 +55,7 @@ client=genai.Client(api_key=api_key)
 # model = genai.GenerativeModel("gemini-1.5-flash") -> not working
 # MODEL = "gemini-2.0-flash" -> NOT using because of quota limit exceeded
 # MODEL="gemini-1.5-flash-latest"
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-2.5-flash-lite"
 
 # This function generates a comprehensive summary of the paper
 # It takes the full extracted text as input
