@@ -140,19 +140,27 @@ To deploy your own version:
 ### Home Screen
 Upload any research paper PDF to get started.
 
-![Uploading image.png…]()
+<img width="730" height="389" alt="image" src="https://github.com/user-attachments/assets/a88d2f12-f9e5-4950-b631-d23759635d94" />
 
 ### Paper Summary
 Get a comprehensive summary covering all key aspects of the paper.
 
+<img width="748" height="382" alt="image" src="https://github.com/user-attachments/assets/d95cf712-58b1-48b6-a7a4-0bdc7773c001" />
+
 ### Key Insights
 Extract structured insights including problem, solution, dataset and results.
+
+<img width="722" height="379" alt="image" src="https://github.com/user-attachments/assets/9ac443b2-6a3c-4f2c-82fb-fa5acd1cd128" />
 
 ### Academic Citations
 Generate proper citations in APA, MLA and Chicago formats instantly.
 
+<img width="695" height="332" alt="image" src="https://github.com/user-attachments/assets/054dae58-f442-42cf-9189-bf54e691979c" />
+
 ### Q&A Chat
 Ask any question about the paper and get accurate answers with conversation memory.
+
+![Uploading image.png…]()
 
 ---
 
@@ -187,6 +195,8 @@ Ask any question about the paper and get accurate answers with conversation memo
 ## 👨‍💻 Developer
 
 **Zeeshan Ali** (codeByShan)
+
+Aspiring AI Engineer
 
 Built as Final Year Project for AI Bootcamp
 
